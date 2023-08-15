@@ -65,4 +65,6 @@ body {
     background-color: var(-btnBg);
 }
 
-.btn:focus { outline-style: none; }
+.btn:focus { 
+    outline-style: none; 
+}
