@@ -25,7 +25,6 @@ li {
     list-style: square;
 }
 
-
 .light-theme {
     --bg: var(--green);
     --fontColor: var(--black);
@@ -37,7 +36,7 @@ li {
 .dark-theme {
     --bg: var(--black);
     --fontColor: var(--green);
-    --btnBg: var(--black);
+    --btnBg: var(--white);
     --btnFontColor: var(--black);
 }
 
@@ -50,7 +49,7 @@ li {
     border-radius: 50%;
     border: none;
     color: var(--btnFontColor);
-    background-color: var(-btnBg);
+    background-color: var(--btnBg);
 }
 
 .btn:focus { 
