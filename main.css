@@ -37,7 +37,7 @@ li {
 .dark-theme {
     --bg: var(--black);
     --fontColor: var(--green);
-    --btnBg: var(--white);
+    --btnBg: var(--black);
     --btnFontColor: var(--black);
 }
 
