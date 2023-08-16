@@ -1,5 +1,16 @@
+:root {
+    --green: #00FF00;
+    --white: #ffffff;
+    --black: #000000;
+}
+
+* {
+    color: var(--fontColor);
+    font-family: helvetica;
+}
+
 body {
-    font-family: monospace;
+    background: var(--bg);
 }
 
 ul {
@@ -14,20 +25,12 @@ li {
     list-style: square;
 }
 
-#msg {
-    font-family: monospace;
-}
-
 .light-theme {
     color: #000000;
     background: #00FF00;
 }
 
-:root {
-    --green: #00FF00;
-    --white: #ffffff;
-    --black: #000000;
-}
+
 
 .light-theme {
     --bg: var(--green);
@@ -42,15 +45,6 @@ li {
     --fontColor: var(--green);
     --btnBg: var(--white);
     --btnFontColor: var(--black);
-}
-
-* {
-    color: var(--fontColor);
-    font-family: helvetica;
-}
-
-body {
-    background: var(--bg);
 }
 
 .btn {
